@@ -1,73 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+## To Do List: A To Do list build without frameworks.
 
-> Description the project.
+>This is project built to show the Today's tasks list, and give users access to add new task or delete the completed tasks
 
+## [Deployed Version]()
 
 ## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+* HTML
+* Css
+* Es6
+* Webpack
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- To get a local copy open and running follow these simple example steps.
 
+   ## Setup
 
-To get a local copy up and running follow these simple example steps.
+   - [Download or Clone] (https://github.com/sarazaToussaint/To_Do_list.git).
 
-### Prerequisites
+   ## Installation
 
-### Setup
+ - Once folder in your text editor:
 
-### Install
+Run `npm install` command to install all dependencies. N.B: Make sure that you have node installed in your commputer, if not [Download Node](https://nodejs.org/en/)
 
-### Usage
+- Run `npm run start` to run this app on your browser
 
-### Run tests
+### Authors
+***
+👤 Toussaint Saraza
 
-### Deployment
+* GitHub: [@sarazaToussaint](https://github.com/sarazaToussaint)
+* Twitter:[@Toussaint Saraz1](https://twitter.com/precious_akams)
+* LinkedIn:[Toussaint Saraza](https://www.linkedin.com/in/toussaint-saraza-841b111ba/)
 
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
+### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+### Acknowledgments
+* Microverse
