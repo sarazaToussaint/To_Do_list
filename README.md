@@ -17,7 +17,7 @@
 
    ## Setup
 
-   - Download or Clone Repository.
+   - [Download or Clone] (https://github.com/sarazaToussaint/To_Do_list.git).
 
    ## Installation
 
@@ -25,6 +25,7 @@
 
 Run `npm install` command to install all dependencies. N.B: Make sure that you have node installed in your commputer, if not [Download Node](https://nodejs.org/en/)
 
+- Run `npm run start` to run this app on your browser
 
 ### Authors
 ***
