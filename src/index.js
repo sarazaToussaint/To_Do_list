@@ -2,8 +2,8 @@ import './style.css';
 import Task from './modules/task.js';
 
 const tasks = document.querySelector('.task-items');
-
 const refresh = document.querySelector('#refersh');
+const clearAll = document.querySelector('#clear');
 
 const addNewTask = document.querySelector('#new-item');
 const enter = document.querySelector('#enter');
@@ -53,6 +53,23 @@ tasks.addEventListener('keypress', (event) => {
   }
 });
 
+// update on changing the checkbock function
+tasks.addEventListener('change', (event) => {
+  if (event.target.checked) {
+    event.target.nextElementSibling.classList.add('checked');
+    const index = event.target.id;
+    tasksList[index - 1].completed = true;
+    localStorage.setItem('tasks', JSON.stringify(tasksList));
+    displayTask();
+  } else {
+    event.target.nextElementSibling.classList.remove('checked');
+    const index = event.target.id;
+    tasksList[index - 1].completed = false;
+    localStorage.setItem('tasks', JSON.stringify(tasksList));
+    displayTask();
+  }
+});
+
 // referesh on click refereshing button function
 refresh.addEventListener('click', () => {
   window.location.reload();
@@ -69,6 +86,17 @@ const addTask = () => {
     localStorage.setItem('tasks', JSON.stringify(tasksList));
     displayTask();
     addNewTask.value = '';
+  });
+
+  // clear all completed function
+  clearAll.addEventListener('click', () => {
+    const uncompletedTasks = tasksList.filter((element) => element.completed !== true);
+    const newTaskList = uncompletedTasks.map((elem, index) => {
+      elem.index = index + 1;
+      return elem;
+    });
+    localStorage.setItem('tasks', JSON.stringify(newTaskList));
+    window.location.reload();
   });
 
   enterKey.addEventListener('keyup', (e) => {
