@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack setup</title>
+    <script src="https://kit.fontawesome.com/985640b3e3.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
 </head>
+
 <body>
-    <h1>Hello my brother Toussaint Saraza</h1>
+    <div class="header">
+        <h1>Today's To Do</h1>
+        <i id="refersh" class="fa-solid fa-rotate icon"></i>
+    </div>
+    <div class="list">
+        <div id="add-item" class="item-container">
+            <div class="item">
+                <input id="new-item" type="text" name="to-do-task" placeholder="Add to your list ..." />
+                <i id="enter" class="fa-solid fa-arrow-turn-down arrows enter-icon"></i>
+            </div>
+        </div>
+        <div id="item-list">
+            <div class="task-items"></div>
+            <div class="clear-completed">
+                <h3 id="clear">Clear All Completed</h3>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
