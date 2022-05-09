@@ -21,7 +21,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -b dist",
+    "deploy": "gh-pages -d dist",
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve --open"
