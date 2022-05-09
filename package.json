@@ -21,7 +21,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -b dist",
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve --open"
@@ -36,12 +36,8 @@
   "bugs": {
     "url": "git@github.com:sarazaToussaint/To_Do_list.git/issues"
   },
-  "homepage": "git@github.com:sarazaToussaint/To_Do_list.git#readme"
+  "homepage": "git@github.com:sarazaToussaint/To_Do_list.git#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
-
-
-
-
-
-
-
