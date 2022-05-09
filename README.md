@@ -3,7 +3,7 @@
 
 >This is project built to show the Today's tasks list, and give users access to add new task or delete the completed tasks
 
-## [Deployed Version]()
+## [Deployed Version](https://sarazatoussaint.github.io/To_Do_list/)
 
 ## Built With
 * HTML
